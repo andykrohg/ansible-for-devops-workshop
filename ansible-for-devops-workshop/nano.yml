@@ -1,0 +1,5 @@
+---
+- name: remove the Nano package
+  yum:
+    name: nano
+    state: absent
