@@ -12,5 +12,6 @@
     docker_container:
       name: apache-simple
       image: quay.io/akrohg/ansible-for-devops-siteb
+      pull: yes
       ports:
         - "8080:8080"
