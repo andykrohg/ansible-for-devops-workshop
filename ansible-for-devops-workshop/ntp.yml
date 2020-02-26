@@ -4,4 +4,4 @@
   vars_files:
     - vars/ntp.yml
   roles:
-     - sparknsh.ntp
+     - geerlingguy.ntp
